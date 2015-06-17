@@ -9,7 +9,7 @@ before_script:
   # - rm /home/travis/build/pielambr/Minerva4J/src/test/resources/settings.properties
   - echo "username="$USERNAME > out.txt
   - cat out.txt
-  - echo "password="$PASSWORD >> /home/travis/build/pielambr/Minerva4J/src/test/resources/settings.properties
+  # - echo "password="$PASSWORD >> /home/travis/build/pielambr/Minerva4J/src/test/resources/settings.properties
 
 script:
  - cd /home/travis/build/pielambr/Minerva4J
